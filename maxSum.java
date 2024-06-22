@@ -19,12 +19,11 @@ public class maxSum {
             if(a==s && p<=i){
                 list.add(p+1);
                 list.add(i+1);
-                return list;
+                
             }
             i++;
         }
         list.add(-1);
-        return list;
-
+        
     }
 }
