@@ -7,8 +7,10 @@ public class maxSubarraySum {
         for(int i=0;i<arr.length;i++) {
             int s = 0;
             for(int j=i;j<arr.length;j++) {
-                
+                s=s+arr[j];
+                if(s>max) max=s;
             }
         }
+        System.out.println(max);
     }
 }
